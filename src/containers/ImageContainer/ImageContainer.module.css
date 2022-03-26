@@ -1,0 +1,8 @@
+.image{
+    width: 50%;
+    border-radius: 12px;
+}
+
+.uppercase{
+    text-transform: capitalize;
+}

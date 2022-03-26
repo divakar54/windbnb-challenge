@@ -1,0 +1,16 @@
+.image {
+	width: 100%;
+	border-radius: 12px;
+}
+
+.font600 {
+	font-size: 1em;
+}
+
+.font400 {
+	font-size: 0.825em;
+}
+
+.p10 {
+	padding: 0.625em 0 0 0;
+}

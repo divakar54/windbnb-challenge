@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function GridContainer(props) {
+	const displayGrid = {
+		display: "grid",
+		gap: "1em",
+		gridTemplateColumns: "repeat(3, 1fr)",
+	};
 
-  const displayGrid = {
-    display: 'grid',
-    gap: '1em',
-    gridTemplateColumns: 'repeat(3, 1fr)'
-  }
-  return (
-    <div style={displayGrid} >{props.children}</div>
-  )
+	return <div style={displayGrid}>{props.children}</div>;
 }
 
-export default GridContainer
+export default GridContainer;

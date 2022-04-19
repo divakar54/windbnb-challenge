@@ -20,30 +20,9 @@ const Wrapper = styled.div`
 	cursor: pointer;
 `;
 
-const DividerLeft = styled.hr`
-	margin: 0;
-	background-color: #f2f2f2;
-	position: absolute;
-	top: 7%;
-	right: 53%;
-	transform: rotate(90);
-	height: 60px;
-`;
-
-const DividerRight = styled.hr`
-	margin: 0;
-	background-color: #f2f2f2;
-	position: absolute;
-	top: 7%;
-	right: 20%;
-	transform: rotate(90);
-	height: 60px;
-`;
-
 const FilterOptions = () => {
 	const [location, setLocation] = useState("");
 	const [guest, setGuest] = useState("");
-	console.log(location, guest);
 	const dispatch = useDispatch();
 
 	const handleOnClick = (event) => {

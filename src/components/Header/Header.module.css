@@ -2,3 +2,43 @@
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+
+.cityOption {
+	all: unset;
+	cursor: pointer;
+}
+
+.cityOptionDiv {
+	padding-bottom: 0.85em;
+}
+
+.cityOptionDiv:first-child {
+	padding-top: 1em;
+}
+
+.search_button {
+	margin-top: 1em;
+}
+
+.addRemoveGuest {
+	position: relative;
+	margin-top: 1em;
+	margin-left: 15em;
+	font-size: 0.875em;
+}
+.locationList {
+	margin-left: 5em;
+}
+.gray {
+	color: #4f4f4f;
+	padding: 0.475em 0;
+}
+.adultGuest {
+	margin-bottom: 1em;
+}
+
+.locationInput,
+.guestInput {
+	cursor: pointer;
+	z-index: 34;
+}
